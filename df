@@ -1,6 +1,6 @@
 FROM python:alpine3.7
 #COPY . /app
-COPY hw.py ./hw2.py 
+COPY hw2.py ./hw2.py 
 #WORKDIR /app
 #RUN pip install -r requirements.txt
 #EXPOSE 5000
