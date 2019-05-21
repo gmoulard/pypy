@@ -4,4 +4,4 @@ COPY hw.py ./hw.py
 #RUN pip install -r requirements.txt
 #EXPOSE 5000
 CMD python ./hw.py
-. ./hw.py
+CMD cat ./hw.py
