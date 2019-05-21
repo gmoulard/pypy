@@ -1,3 +1,5 @@
 import datetime
 print('hw')
-str(datetime.datetime.now())
+date = datetime.datetime.now()
+str(date)
+print (datetime.datetime.now())
