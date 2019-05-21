@@ -1,6 +1,6 @@
 FROM python:alpine3.7
 #COPY . /app
-COPY https://raw.githubusercontent.com/gmoulard/pypy/master/hw.py ./hw.py 
+COPY hw.py ./hw.py 
 #WORKDIR /app
 #RUN pip install -r requirements.txt
 #EXPOSE 5000
