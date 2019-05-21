@@ -1,2 +1,2 @@
-FROM python:alpine3.5
+FROM python:3.4-alpine
 COPY hw.py ./hw.py 
