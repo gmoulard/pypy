@@ -1,4 +1,0 @@
-FROM alpine
-
-RUN apk add python
-COPY hw.py ./hw.py 
